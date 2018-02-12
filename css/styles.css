@@ -1,0 +1,56 @@
+html, body{
+	margin: 0;
+	padding-bottom: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	color: black;
+	font-family: Source Sans Pro;
+	font-weight: 500;
+	font-size: 300%;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.p1{
+	position: relative;
+	height: 100%;
+	background-image: url("me.jpg");
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.sec {
+	position:relative;
+	top: 30%;
+	left: 35%;
+	color: black;
+	width: 65%;
+}
+
+.sec p{
+	font-size: 20px;
+	text-align: justify;
+	margin: 0;
+	position: absolute;	
+	margin-right: 50px;
+}
+
+@media (max-width: 700px){
+	h1{
+		font-size: 200%;
+	}
+	.sec{
+		top: 10%;
+		left:0%;
+		width: 100%;
+	}
+	.sec p{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
