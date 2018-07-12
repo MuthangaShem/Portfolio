@@ -254,7 +254,7 @@ header::before {
     text-align: right;
     font-weight: 800;
 }
-.left-bar .panesa {
+.left-bar .muthanga {
 	color: #b4b4b4;
     font-weight: 500;
 }
@@ -263,7 +263,7 @@ header::before {
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.left-bar .panesa:hover {
+.left-bar .muthanga:hover {
 	color: #e74c3c;
     transition: all 0.3s ease;
     cursor: pointer;
